@@ -32,7 +32,7 @@ where I own and control **every layer, silicon to reverse proxy** — and run it
 | Project | What it is |
 |---|---|
 | **Halfax AI Stack** | A private multi-model server running **GPT-OSS-120B on an integrated GPU** (AMD Strix Halo, 96 GiB UMA, Vulkan) — OpenAI-compatible, three models resident at once, ~78 GiB. No cloud. |
-**Heimdall Augur** ([live demo](https://heimdall.guywithgames.com/) · *source currently private*) | A news engine that **fact-checks itself**: reads ~50 sources, validates every quote against the source text, and confirms facts only when *differently-framed* outlets agree. Corroborates — never pronounces. |
+| **Heimdall Augur** ([live demo](https://heimdall.guywithgames.com/) · *source currently private*) | A news engine that **fact-checks itself**: reads ~50 sources, validates every quote against the source text, and confirms facts only when *differently-framed* outlets agree. Corroborates — never pronounces. |
 | **The Story Universe** | An AI-driven world running unattended across three machines. Pauses the entire world before it will fabricate a single scene. |
 | [**Halfax AI VSCode**](https://github.com/Halfax/halfax-ai-vscode) | A from-scratch IDE client — chat, agent, autocomplete — that talks to my own GPU and **resumes its agent mid-task after a crash**. |
 | [**PictureAI**](https://github.com/Halfax/picture-ai) | Local image generation entirely on an integrated GPU — no CUDA, no cloud, no account (SDXL, Flux, SD3.5, Chroma). |
@@ -50,7 +50,6 @@ where I own and control **every layer, silicon to reverse proxy** — and run it
 |---|---|
 | [**HalfaxOS**](https://github.com/Halfax/33rd) | A **64-bit capability-based OS written from scratch** in C and assembly — boots to a Ring-3 windowed desktop, a from-scratch TCP/IP stack, 52 syscalls, SMP bring-up. No borrowed kernel code. |
 | **Halfax KeySecrets** ([MCP wrapper](https://github.com/Halfax/keysecrets-mcp) · *server source private*) | A self-hosted, end-to-end encrypted vault — **hybrid post-quantum by default** (X25519 + ML-KEM-768); the server only ever sees ciphertext. |
-
 | [**Halfax System Reporter**](https://github.com/Halfax/halfax_system_reporter) | A Windows **Ring-0 kernel driver** reading MSRs, PCI config space, and SMBus directly — the same access commercial telemetry tools use, from scratch. |
 | **tor-recon** | Security recon that turns Tor into an attacker's-eye view of my own network — its first runs found a public dev server running as root over plaintext. |
 
